@@ -1,6 +1,6 @@
 import express from "express";
 import dotevn from "dotenv";
-dotevn.config();
+dotenv.config();
 const app = express();
 
 app.get("/", (req, res) => {
